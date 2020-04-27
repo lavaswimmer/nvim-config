@@ -15,6 +15,9 @@ call plug#end()
 
 "Config Section
 
+set expandtab
+set shiftwidth=2
+
 if (has("termguicolors"))
  set termguicolors
 endif
