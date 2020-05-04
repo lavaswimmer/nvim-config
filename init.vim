@@ -7,7 +7,6 @@ call plug#begin("~/.vim/plugged")
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf.vim'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', coc-phpls]
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
 
@@ -15,12 +14,17 @@ call plug#end()
 
 "Config Section
 
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-phpls', 'coc-snippets', 'coc-pairs']
+set hidden
+
+
 set expandtab
 set shiftwidth=2
 
 if (has("termguicolors"))
  set termguicolors
 endif
+
 syntax enable
 colorscheme dracula
 
