@@ -23,7 +23,7 @@ call plug#end()
 let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-phpls', 'coc-snippets', 'coc-pairs']
 set hidden
 
-
+set number
 set expandtab
 set shiftwidth=2
 
