@@ -6,7 +6,8 @@ endif
 
 call plug#begin("~/.vim/plugged")
   " Plugin Section
-
+  
+  Plug 'itchyny/lightline.vim'
   Plug 'dracula/vim'
   Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
@@ -26,6 +27,14 @@ set hidden
 set number
 set expandtab
 set shiftwidth=2
+
+" Lightline
+set laststatus=2
+let g:lightline = {
+      \'colorscheme': 'wombat',
+      \ }
+
+
 
 if (has("termguicolors"))
  set termguicolors
