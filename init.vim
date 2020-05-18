@@ -8,7 +8,7 @@ call plug#begin("~/.vim/plugged")
   " Plugin Section
   
   Plug 'itchyny/lightline.vim'
-  Plug 'dracula/vim'
+  Plug 'joshdick/onedark.vim'
   Plug 'scrooloose/nerdtree'
   Plug 'ryanoasis/vim-devicons'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -17,7 +17,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'StanAngeloff/php.vim'  
-
+  Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 "Config Section
@@ -42,7 +42,7 @@ if (has("termguicolors"))
 endif
 
 syntax enable
-colorscheme dracula
+colorscheme onedark
 
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
