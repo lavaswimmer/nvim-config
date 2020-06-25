@@ -28,6 +28,7 @@ set hidden
 set number
 set expandtab
 set shiftwidth=2
+set relativenumber
 
 " Lightline
 set laststatus=2
