@@ -18,11 +18,12 @@ call plug#begin("~/.vim/plugged")
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'StanAngeloff/php.vim'  
   Plug 'sheerun/vim-polyglot'
+  Plug 'danilamihailov/beacon.nvim'
 call plug#end()
 
 "Config Section
 
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-phpls', 'coc-snippets', 'coc-pairs', 'coc-svelte']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver', 'coc-phpls', 'coc-snippets', 'coc-pairs', 'coc-svelte', 'coc-go']
 set hidden
 
 set number
