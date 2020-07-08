@@ -19,6 +19,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'StanAngeloff/php.vim'  
   Plug 'sheerun/vim-polyglot'
   Plug 'danilamihailov/beacon.nvim'
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries'}
 call plug#end()
 
 "Config Section
